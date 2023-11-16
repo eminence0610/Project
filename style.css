@@ -1,0 +1,35 @@
+section {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 1px solid black;
+    
+}
+
+.one {
+    transform: translate(100px,100px);
+    background-color: red;
+    position: absolute;
+    mix-blend-mode: difference;
+}
+
+.two {
+    transform: translate(260px,100px);
+    background-color: blue;
+    position: absolute;
+    mix-blend-mode: difference;
+}
+
+.three {
+    transform: translate(160px,250px);
+    background-color: green;
+    position: absolute;
+    mix-blend-mode: difference;
+}
